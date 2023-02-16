@@ -1,0 +1,14 @@
+GET http://localhost:8080/hello
+Accept: application/json
+
+### Send POST request with json body
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+###
+PUT http://localhost:8080/hello
+Accept: application/json
+
+###
+DELETE http://localhost:8080/hello
+Accept: application/json
